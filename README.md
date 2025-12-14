@@ -37,12 +37,44 @@
 - Otimalidade<br>
 	a resposta encontrada foi 720, que É a solução ótima para o problema proposto, porém isso não é algo garantido do algoritmo, mas provável
 # A* (A-estrela)
-- Completude
-- Complexidade (Tempo)
-- Complexidade (Espaço)
-- Otimalidade
+- Completude<br>
+	é completo se o h for admissível e consistente, que é o caso do nosso grafo
+- Complexidade (Tempo)<br>
+	foram apenas 7 nós expandidos, porém esse algoritmo normalmente gera um crescimento exponencial de nós
+- Complexidade (Espaço)<br>
+	o maior problema do A* é que ele armazena todos os nós gerados, pra ir fazendo o calculo da heurística, portanto ele rapidamente fica inviável em problemas de grande escala
+- Otimalidade<br>
+	a solução encontrada foi a ótima (720) assim como no BFS, porém dessa vez é o comportamento esperado mesmo do algorítmo, pois ele garante a solução ótima com o mínimo de expansão possível
+
 # Heuristic Depth Search (Busca em profundidade com heuristica)
-- Completude
-- Complexidade (Tempo)
-- Complexidade (Espaço)
-- Otimalidade
+- Completude<br>
+	é completa se a heurística for boa, pois vai verificar sempre um caminho que se aproxime do resultado caso exista
+- Complexidade (Tempo)<br>
+	7 nós foram expandidos apenas, que é um baixo custo de tempo
+- Complexidade (Espaço)<br>
+	apenas foram expandidos nós necessários pra solução, bom aproveitamento de 
+- Otimalidade<br>
+	a solução encontrada foi ótima
+
+# Perguntas a responder
+
+## Qual algoritmo apresentou maior explosão combinatória?
+	O algoritmo que apresentou maior explosão combinatória foi o de busca em largura, o que é o esperado já que a busca em largura é muito custosa quando existe uma grande diferença de nível entre o início e o fim.
+
+## Qual algoritmo apresentou melhor desempenho(menos nós expandidos, menor custo)?
+	O Heuristic Depth Search e o A* apresentaram melhor desempenho, ambos precisando de apenas 7 nós para chegar na solução ótima
+
+## Houve algum problema para achar a resposta com algum algoritmo?
+	Não houve nenhum problema para achar a resposta, todos algoritmos conseguiram, porém alguns chegavam muito próximos da solução e começavam a testar outras soluções, apresentando um desperdício de busca para o problema proposto.
+
+## Qual a diferença prática entre usar detecção de ciclos e não usar?
+	A detetcção de ciclos é muito útil para algoritmos de busca que são suscetíveis a eles, como o DPS, o BFS, e a busca de custo uniforme. Evitar esses ciclos além de por vezes evitar grande desperdício de tempo, também tornam alguns desses algorítmos completos.
+
+## Qual algoritmo você escolheria para um sistema de navegação real (como GPS)? Justifique.
+	O melhor sem dúvida seria o A* pois garante o melhor caminho se a heurística for admissível, para um sistema de navegação que utiliza distância geográfica, é facil da heurística ser admissível, garantindo um ótimo desempenho nesse tipo de problema.
+
+#  Aplicação final
+
+## Defina a melhor rota de fuga para uma pessoa que está na Escola Maria Clara e precisa chegar ao Hospital São Francisco de Paula o mais rápido possível.
+	De acordo com a solução ótima dos algoritmos a melhor rota de fuga seria 
+	EscolaMariaClara->RuaOtavioCarneiro->RuaSantana->RuaGeneralOsorio->RuaBaraoCotegipe->RuaTravessaDoComercio->HospitalSaoFrancisco
