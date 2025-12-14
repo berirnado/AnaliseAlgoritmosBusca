@@ -1,0 +1,283 @@
+
+<SEARCH>
+	<GRAPH>
+		<DESCRIPTION>
+			<SHORT>EscolaMariaClara → HospitalSaoFrancisco</SHORT>
+			<DETAILED>Grafo urbano de Pelotas com custos e heurística</DETAILED>
+		</DESCRIPTION>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>EscolaMariaClara</NAME>
+			<INDEX>0</INDEX>
+			<XPOS>7541.0</XPOS>
+			<YPOS>5055.0</YPOS>
+			<TYPE>START</TYPE>
+			<HEURISTICVALUE>950.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>PracaDomPedro</NAME>
+			<INDEX>1</INDEX>
+			<XPOS>7540.0</XPOS>
+			<YPOS>5127.0</YPOS>
+			<TYPE>REGULAR</TYPE>
+			<HEURISTICVALUE>800.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>PracaCoronelPedroOsorio</NAME>
+			<INDEX>2</INDEX>
+			<XPOS>7541.0</XPOS>
+			<YPOS>5203.0</YPOS>
+			<TYPE>REGULAR</TYPE>
+			<HEURISTICVALUE>650.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>RuaOtavioCarneiro</NAME>
+			<INDEX>3</INDEX>
+			<XPOS>8146.0</XPOS>
+			<YPOS>5058.0</YPOS>
+			<TYPE>REGULAR</TYPE>
+			<HEURISTICVALUE>400.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>IgrejaSaoBenedito</NAME>
+			<INDEX>4</INDEX>
+			<XPOS>7774.0</XPOS>
+			<YPOS>5129.0</YPOS>
+			<TYPE>REGULAR</TYPE>
+			<HEURISTICVALUE>700.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>MercadoPublico</NAME>
+			<INDEX>5</INDEX>
+			<XPOS>7928.0</XPOS>
+			<YPOS>5130.0</YPOS>
+			<TYPE>REGULAR</TYPE>
+			<HEURISTICVALUE>600.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>RuaCondePortoAlegre</NAME>
+			<INDEX>6</INDEX>
+			<XPOS>7765.0</XPOS>
+			<YPOS>5201.0</YPOS>
+			<TYPE>REGULAR</TYPE>
+			<HEURISTICVALUE>550.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>RuaXV</NAME>
+			<INDEX>7</INDEX>
+			<XPOS>7933.0</XPOS>
+			<YPOS>5202.0</YPOS>
+			<TYPE>REGULAR</TYPE>
+			<HEURISTICVALUE>450.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>RuaAndradeNeves</NAME>
+			<INDEX>8</INDEX>
+			<XPOS>8355.0</XPOS>
+			<YPOS>5130.0</YPOS>
+			<TYPE>REGULAR</TYPE>
+			<HEURISTICVALUE>500.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>RuaSantana</NAME>
+			<INDEX>9</INDEX>
+			<XPOS>8198.0</XPOS>
+			<YPOS>5187.0</YPOS>
+			<TYPE>REGULAR</TYPE>
+			<HEURISTICVALUE>300.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>RuaGeneralOSorio</NAME>
+			<INDEX>10</INDEX>
+			<XPOS>8197.0</XPOS>
+			<YPOS>5243.0</YPOS>
+			<TYPE>REGULAR</TYPE>
+			<HEURISTICVALUE>250.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>RuaBaraoCotegipe</NAME>
+			<INDEX>11</INDEX>
+			<XPOS>8197.0</XPOS>
+			<YPOS>5297.0</YPOS>
+			<TYPE>REGULAR</TYPE>
+			<HEURISTICVALUE>200.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>RuaTravessaDoComercio</NAME>
+			<INDEX>12</INDEX>
+			<XPOS>8056.0</XPOS>
+			<YPOS>5373.0</YPOS>
+			<TYPE>REGULAR</TYPE>
+			<HEURISTICVALUE>150.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>HospitalSaoFrancisco</NAME>
+			<INDEX>13</INDEX>
+			<XPOS>8156.0</XPOS>
+			<YPOS>5507.0</YPOS>
+			<TYPE>GOAL</TYPE>
+			<HEURISTICVALUE>0.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Node Definitions -->
+
+		<NODE>
+			<NAME>RuaBispoMacedo</NAME>
+			<INDEX>14</INDEX>
+			<XPOS>7877.0</XPOS>
+			<YPOS>5507.0</YPOS>
+			<TYPE>REGULAR</TYPE>
+			<HEURISTICVALUE>350.0</HEURISTICVALUE>
+		</NODE>
+
+		<!-- Edge Definitions -->
+
+		<EDGE>
+			<STARTINDEX>0</STARTINDEX>
+			<ENDINDEX>3</ENDINDEX>
+			<COST>180.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>0</STARTINDEX>
+			<ENDINDEX>1</ENDINDEX>
+			<COST>200.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>1</STARTINDEX>
+			<ENDINDEX>2</ENDINDEX>
+			<COST>220.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>1</STARTINDEX>
+			<ENDINDEX>4</ENDINDEX>
+			<COST>150.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>4</STARTINDEX>
+			<ENDINDEX>5</ENDINDEX>
+			<COST>100.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>5</STARTINDEX>
+			<ENDINDEX>8</ENDINDEX>
+			<COST>120.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>3</STARTINDEX>
+			<ENDINDEX>9</ENDINDEX>
+			<COST>140.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>9</STARTINDEX>
+			<ENDINDEX>10</ENDINDEX>
+			<COST>80.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>10</STARTINDEX>
+			<ENDINDEX>11</ENDINDEX>
+			<COST>70.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>11</STARTINDEX>
+			<ENDINDEX>12</ENDINDEX>
+			<COST>150.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>12</STARTINDEX>
+			<ENDINDEX>13</ENDINDEX>
+			<COST>100.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>13</STARTINDEX>
+			<ENDINDEX>8</ENDINDEX>
+			<COST>180.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>9</STARTINDEX>
+			<ENDINDEX>8</ENDINDEX>
+			<COST>90.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>7</STARTINDEX>
+			<ENDINDEX>14</ENDINDEX>
+			<COST>90.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>6</STARTINDEX>
+			<ENDINDEX>14</ENDINDEX>
+			<COST>130.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>2</STARTINDEX>
+			<ENDINDEX>6</ENDINDEX>
+			<COST>160.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>6</STARTINDEX>
+			<ENDINDEX>7</ENDINDEX>
+			<COST>100.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>7</STARTINDEX>
+			<ENDINDEX>3</ENDINDEX>
+			<COST>160.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>13</STARTINDEX>
+			<ENDINDEX>14</ENDINDEX>
+			<COST>120.0</COST>
+		</EDGE>
+		<EDGE>
+			<STARTINDEX>7</STARTINDEX>
+			<ENDINDEX>12</ENDINDEX>
+			<COST>110.0</COST>
+		</EDGE>
+
+		<!-- Heuristic Settings -->
+
+		<HEURISTIC value="MANUAL"></HEURISTIC>
+		<EDGECOSTS value="MANUAL"></EDGECOSTS>
+
+	</GRAPH>
+</SEARCH>
