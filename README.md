@@ -1,38 +1,4 @@
-O trabalho será uma apresentação em vídeo do grupo com todos os participantes; O envio é feito apenas por um componente do grupo; 
-A duração máxima do vídeo deverá ser de 10 minutos, com tolerância de 5 minutos (ou seja, entre 10 e 15 minutos); 
-
-# A apresentação deverá mostrar: 
-● Interação entre os componentes;
-● Argumentação dos resultados.
-
-# A apresentação NÃO deverá ser apenas: 
-● Apresentação de slides;
-● Apresentações individuais dos componentes do grupo. 
-● Em caso de dúvidas sobre a apresentação, postem no e-Aulas (desta forma, a resposta fica disponível a todos). 
-
-# FERRAMENTAS 
-Dica de leitura: https://artint.info/index.html 
-Tutorial interativo: http://www.aispace.org/search/help/tutorial4.shtml 
-Software: search.jar (disponível no e-Aula da disciplina) 
-Comando para rodar: java -jar search.jar 
-
-# CENÁRIO DO TRABALHO 
-Vocês receberão um mapa simplificado do Centro de Pelotas, representando ruas e cruzamentos como um grafo. Cada nó é um cruzamento ou ponto de referência (como escolas, hospitais, praças), e cada aresta representa uma via com custo associado (distância em metros). Objetivo: Modelar o mapa como um grafo de estados no software search.jar, definindo: Nó inicial: Escola Municipal “Prof.ª Maria Clara” Nó objetivo: Hospital São Francisco de Paula
-
-# ETAPAS DO TRABALHO 
-## Parte 1 – Modelagem 
-Modelar o mapa fornecido (disponível no e-Aula) no software search.jar; 
-Definir o nó inicial e o nó objetivo conforme indicado; 
-Associar heurísticas (distância em linha reta até o hospital) a cada nó; 
-Associar custos (distância real em metros) a cada aresta. 
-## Parte 2 – Análise dos Algoritmos 
-Execute os seguintes algoritmos disponíveis no search.jar: 
-a) Depth-first search (Busca em profundidade) 
-b) Breadth-first search (Busca em largura) 
-c) Lowest cost search (Busca de custo uniforme) 
-d) Best-first search (Busca pela melhor escolha) 
-e) A* (A-estrela) f) Heuristic depth search Para cada algoritmo, explique com base nos seguintes critérios:
-
+# Análise dos algoritmos
 
 # Depth First Search (Busca em profundidade)
 - Completude
